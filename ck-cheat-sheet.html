@@ -10,21 +10,6 @@
     <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
   <![endif]-->
-  <script type="text/javascript">
-      $('h3').contents().each(function () {
-        var ids = $("h3").text();
-        $(this).attr('id', ids);
-      });
-      var ids = $("h3").text();
-      $('h3').attr("id", function() { return $(this).attr("title") + ids });
-
-      
-      $('h3').each(function() {
-        var value = $('h3').value();
-        $('h3').attr("id", $(this).attr("id", value));
-      });
-
-  </script>
   </head>
   <body>
   <div class="container">
@@ -37,7 +22,7 @@
     </thead>
     <tbody>
         <tr>
-            <td><img src="https://www.seas.harvard.edu/sites/default/files/images/Office%20of%20Communications/new_styles.jpg" height="40" width="125"></td>
+            <td><img src="new_styles.jpg" height="40" width="125"></td>
             <td>Apply ACP text styles</td>
         </tr>
         <tr>
@@ -70,7 +55,7 @@
         </tr>
         <tr>
             <td><img src="list-style.png" height="28" width="125"></td>
-            <td>Use this for bullet points.</td>
+            <td>Use this for list items.</td>
         </tr>
         <tr>
             <td><img src="sig-style.png" height="32" width="125"></td>
@@ -98,91 +83,87 @@
             <td><b>End dropdown Styles</b></td>
         </tr>
         <tr>
-            <td><img src="https://www.seas.harvard.edu/sites/default/files/images/Office%20of%20Communications/new_block.jpg" height="41" width="125"></td>
+            <td><img src="new_block.jpg" height="41" width="125"></td>
             <td>Stock styles.&nbsp; Use this dropdown for a more generic look.&nbsp;</td>
         </tr>
         <tr>
-            <td><img src="https://www.seas.harvard.edu/sites/default/files/images/Office%20of%20Communications/new_bold.jpg" height="41" width="41"></td>
+            <td><img src="new_bold.jpg" height="41" width="41"></td>
             <td>Bold</td>
         </tr>
         <tr>
-            <td><img src="https://www.seas.harvard.edu/sites/default/files/images/Office%20of%20Communications/new_br.jpg" height="41" width="41"></td>
+            <td><img src="new_br.jpg" height="41" width="41"></td>
             <td>Horizontal rule</td>
         </tr>
         <tr>
-            <td><img src="https://www.seas.harvard.edu/sites/default/files/images/Office%20of%20Communications/new_center.jpg" height="41" width="41"></td>
+            <td><img src="new_center.jpg" height="41" width="41"></td>
             <td>Center text</td>
         </tr>
         <tr>
-            <td><img src="https://www.seas.harvard.edu/sites/default/files/images/Office%20of%20Communications/new_spelling.jpg" height="41" width="56"></td>
+            <td><img src="new_spelling.jpg" height="41" width="56"></td>
             <td>Check Spelling</td>
         </tr>
         <tr>
-            <td><img src="https://www.seas.harvard.edu/sites/default/files/images/Office%20of%20Communications/new_clean.jpg" height="41" width="41">
+            <td><img src="new_clean.jpg" height="41" width="41">
             <td>Clean/clear formatting</td>
         </tr>
         <tr>
-            <td><img src="https://www.seas.harvard.edu/sites/default/files/images/Office%20of%20Communications/new_copy.jpg"></td>
+            <td><img src="new_copy.jpg"></td>
             <td>Copy selection</td>
         </tr>
         <tr>
-            <td><img src="https://www.seas.harvard.edu/sites/default/files/images/Office%20of%20Communications/new_cut.jpg"></td>
+            <td><img src="new_cut.jpg"></td>
             <td>Cut selection</td>
         </tr>
         <tr>
-            <td><img src="https://www.seas.harvard.edu/sites/default/files/images/Office%20of%20Communications/new_italic.jpg" height="41" width="41"></td>
+            <td><img src="new_italic.jpg" height="41" width="41"></td>
             <td>Italic</td>
         </tr>
         <tr>
-            <td><img src="https://www.seas.harvard.edu/sites/default/files/images/Office%20of%20Communications/new_jump.jpg"></td>
-            <td>Target of jumplink/anchor.&nbsp; Note: this is only the target.&nbsp; You must still link to the target using the <em>link</em> button.&nbsp; CKEditor also has tools within the link pop-up to make it easier to link to anchors that already exist on your page.</td>
-        </tr>
-        <tr>
-            <td><img src="https://www.seas.harvard.edu/sites/default/files/images/Office%20of%20Communications/new_left.jpg" height="41" width="41"></td>
+            <td><img src="new_left.jpg" height="41" width="41"></td>
             <td>Left justify</td>
         </tr>
         <tr>
-            <td><img src="https://www.seas.harvard.edu/sites/default/files/images/Office%20of%20Communications/new_link.jpg"></td>
+            <td><img src="new_link.jpg"></td>
             <td>Link.&nbsp; Applied to a selection to create a new link or used to update when a cursor is placed in an existing link.</td>
         </tr>
         <tr>
-            <td><img src="https://www.seas.harvard.edu/sites/default/files/images/Office%20of%20Communications/new_olist.jpg"></td>
+            <td><img src="new_olist.jpg"></td>
             <td>Ordered (numbered) list</td>
         </tr>
         <tr>
-            <td><img src="https://www.seas.harvard.edu/sites/default/files/images/Office%20of%20Communications/new_paste.jpg"></td>
+            <td><img src="new_pastetext.jpg"></td>
             <td>Paste (normal paste)</td>
         </tr>
         <tr>
-            <td><img src="https://www.seas.harvard.edu/sites/default/files/images/Office%20of%20Communications/new_pasteword.jpg"></td>
+            <td><img src="new_pasteword.jpg"></td>
             <td>Paste from MS Word.&nbsp; Cleans up garbage code imported by Word, Excel, and Outlook.</td>
         </tr>
         <tr>
-            <td><img src="https://www.seas.harvard.edu/sites/default/files/images/Office%20of%20Communications/new_redo.jpg" height="41" width="41"></td>
+            <td><img src="new_redo.jpg" height="41" width="41"></td>
             <td>Redo previously undone action</td>
         </tr>
         <tr>
-            <td><img src="https://www.seas.harvard.edu/sites/default/files/images/Office%20of%20Communications/new_right.jpg"></td>
+            <td><img src="new_right.jpg"></td>
             <td>Right justify text</td>
         </tr>
         <tr>
-            <td><img src="https://www.seas.harvard.edu/sites/default/files/images/Office%20of%20Communications/new_source.jpg" height="41" width="102"></td>
+            <td><img src="new_source.jpg" height="41" width="102"></td>
             <td>View/Edit HTML source.</td>
         </tr>
         <tr>
-            <td><img src="https://www.seas.harvard.edu/sites/default/files/images/Office%20of%20Communications/new_table.jpg" height="41" width="41"></td>
+            <td><img src="new_table.jpg" height="41" width="41"></td>
             <td>Table builder</td>
         </tr>
         <tr>
-            <td><img src="https://www.seas.harvard.edu/sites/default/files/images/Office%20of%20Communications/new_ulist.jpg"></td>
+            <td><img src="new_ulist.jpg"></td>
             <td>Unordered (bulleted) list</td>
         </tr>
         <tr>
-            <td><img src="https://www.seas.harvard.edu/sites/default/files/images/Office%20of%20Communications/new_undo.jpg"></td>
+            <td><img src="new_undo.jpg"></td>
             <td>Undo last action</td>
         </tr>
         <tr>
-            <td><img src="https://www.seas.harvard.edu/sites/default/files/images/Office%20of%20Communications/new_unlink.jpg"></td>
+            <td><img src="new_unlink.jpg"></td>
             <td>Unlink existing link</td>
         </tr>
     </tbody>
